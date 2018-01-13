@@ -147,15 +147,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void comprueba() {
         if(
                 b1[0] == 0 && b1[1] == 0 &&
-                        b2[0] == 1 && b2[1] == 0 &&
-                        b3[0] == 2 && b3[1] == 0 &&
-                        b4[0] == 0 && b4[1] == 1 &&
-                        b5[0] == 1 && b5[1] == 1 &&
-                        b6[0] == 2 && b6[1] == 1 &&
-                        b7[0] == 0 && b7[1] == 2 &&
-                        b8[0] == 1 && b8[1] == 2
-                ){
-            texto1.setText("ENHORABUENA. HAS GANADO");
+                b2[0] == 1 && b2[1] == 0 &&
+                b3[0] == 2 && b3[1] == 0 &&
+                b4[0] == 0 && b4[1] == 1 &&
+                b5[0] == 1 && b5[1] == 1 &&
+                b6[0] == 2 && b6[1] == 1 &&
+                b7[0] == 0 && b7[1] == 2 &&
+                b8[0] == 1 && b8[1] == 2
+        ){
+        texto1.setText("ENHORABUENA. HAS GANADO");
         }
     }
 
